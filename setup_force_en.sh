@@ -47,5 +47,5 @@ if ! grep -q "$DIR/.loop_to_run_enforce.sh" "$HOME/.xprofile" 2>/dev/null; then
     echo "$DIR/.loop_to_run_enforce.sh &" >> "$HOME/.xprofile"
 fi
 
+source ~/.xprofile
 echo "✅ Scripts installed in $DIR and autostart added to ~/.xprofile"
-
